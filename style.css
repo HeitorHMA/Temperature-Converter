@@ -1,0 +1,35 @@
+.page{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    justify-content: space-between;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 2.5px 2.5px grey;}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.title{
+    text-wrap: wrap;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+.checkers{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.resultinput{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
